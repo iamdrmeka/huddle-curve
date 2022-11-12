@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  transition: 0.6s ease;
 }
 
 body {
@@ -37,6 +36,7 @@ header {
   font-size: 0.8rem;
   font-weight: bold;
   color: hsl(322deg, 100%, 66%);
+  transition: 0.6s ease;
 }
 .try a:hover {
   border-color: hsl(321deg, 100%, 78%);
@@ -76,6 +76,7 @@ header {
   font-size: 14px;
   box-shadow: 0 5px 10px -6px hsl(192deg, 100%, 9%);
   margin-bottom: 9rem;
+  transition: 0.6s ease;
 }
 .section-one a:hover {
   background-color: hsl(321deg, 100%, 78%);
@@ -103,6 +104,7 @@ header {
   font-size: 5.5rem;
   font-weight: 700;
   margin-bottom: 0.7rem;
+  font-family: "Poppins", sans-serif;
 }
 .section-three .section-three-box p {
   color: hsl(192deg, 100%, 9%);
@@ -243,6 +245,7 @@ header {
   margin-bottom: 4rem;
   color: hsl(207deg, 100%, 98%);
   font-weight: 400;
+  transition: 0.6s ease;
 }
 .section-seven a:hover {
   background-color: hsl(321deg, 100%, 78%);
@@ -268,6 +271,7 @@ footer div.txt-area .contact {
 footer div.txt-area .contact h1 {
   display: inline-block;
   margin-bottom: 1rem;
+  font-family: "Poppins", sans-serif;
 }
 footer div.txt-area .contact .white-logo {
   display: inline-block;
@@ -278,7 +282,7 @@ footer div.txt-area .contact p.address {
   font-size: 14px;
   margin-right: 55%;
   line-height: 20px;
-  margin-bottom: 1rem;
+  margin-bottom: 1.3rem;
 }
 footer div.txt-area .contact .p-wrap img,
 footer div.txt-area .contact .p-wrap p {
@@ -287,7 +291,7 @@ footer div.txt-area .contact .p-wrap p {
 footer div.txt-area .contact .p-wrap p {
   margin-left: 9px;
   font-size: 15px;
-  margin-bottom: 1rem;
+  margin-bottom: 1.4rem;
 }
 footer div.txt-area .contact .socials {
   margin: 2rem 0 0 0;
@@ -301,6 +305,7 @@ footer div.txt-area .contact .socials a i {
   text-decoration: none;
   color: hsl(207deg, 100%, 98%);
   font-size: 1.8rem;
+  transition: 0.6s ease;
 }
 footer div.txt-area .contact .socials a i:hover {
   color: skyblue;
@@ -311,6 +316,7 @@ footer div.txt-area .news-letter {
 }
 footer div.txt-area .news-letter h3 {
   font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 1rem;
 }
 footer div.txt-area .news-letter p {
@@ -328,7 +334,7 @@ footer div.txt-area .news-letter [type=email] {
   margin-right: 30px;
   padding: 4px 10px;
   color: hsla(192deg, 100%, 9%, 0.486);
-  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
 }
 footer div.txt-area .news-letter [type=email]:hover {
@@ -343,9 +349,9 @@ footer div.txt-area .news-letter [type=submit] {
   height: 50px;
   border: none;
   border-radius: 5px;
-  font-weight: 600;
   color: hsl(207deg, 100%, 98%);
   background-color: hsl(322deg, 100%, 66%);
+  transition: 0.6s ease;
 }
 footer div.txt-area .news-letter [type=submit]:hover {
   background-color: hsl(321deg, 100%, 78%);
@@ -360,10 +366,6 @@ footer div.txt-area .news-letter .error-msg {
 }
 footer div.txt-area .news-letter .show-error {
   visibility: visible;
-}
-
-.dev {
-  display: none;
 }
 
 ::-webkit-scrollbar {
@@ -381,10 +383,6 @@ footer div.txt-area .news-letter .show-error {
 }
 ::-webkit-scrollbar-thumb:hover {
   background-color: hsl(322deg, 100%, 66%);
-}
-
-.fa-message {
-  color: hsl(322deg, 100%, 66%);
 }
 
 @media screen and (max-width: 820px) {
@@ -541,4 +539,5 @@ footer div.txt-area .news-letter .show-error {
     margin-bottom: 1.3rem;
     font-size: 13px;
   }
-}/*# sourceMappingURL=huddle.css.map */
+}
+/*there goes the end of the code*//*# sourceMappingURL=huddle.css.map */
