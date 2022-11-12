@@ -146,6 +146,7 @@ header {
   margin-bottom: 8rem;
   width: 100%;
   // min-height: 600px;
+  
 
   .top {
     position: relative;
@@ -508,11 +509,13 @@ footer {
   }
 
   .section-four {
+
     .content {
       flex-direction: column-reverse;
       row-gap: 5rem;
       padding: 0 1rem;
       align-items: center;
+      padding-bottom: 4rem;
     }
 
     .section-four-box {
